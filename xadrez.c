@@ -23,5 +23,17 @@ int main() {
         k++;
     } while (k < 8);
 
+    // Movimentação do Cavalo (2 casas para baixo e 1 para a esquerda) usando loops aninhados
+    printf("\nMovimento do Cavalo:\n");
+    for (int m = 0; m < 2; m++) { // Duas casas para baixo
+        printf("Baixo\n");
+    }
+    
+    int n = 0;
+    while (n < 1) { // Uma casa para a esquerda
+        printf("Esquerda\n");
+        n++;
+    }
+
     return 0;
 }
